@@ -489,9 +489,14 @@ nav li {
 	}
 }
 @media (max-width: 480px) {
+	#goaisatsu .orange-bar {
+		margin-top: -50px;
+	}
+
 	#goaisatsu .left-box, #goaisatsu .right-box {
 		float: none;
 		width: 100%;
+		margin-top: -94px;
 	}
 
 	#goaisatsu .left-box img.mobile {
