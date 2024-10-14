@@ -331,6 +331,7 @@ header a.call img {
 	#top {
 		background-position-x: calc(26% - 40px);
 		height: 400px;
+		background-size: 180%;
 	}
 
 	#top span {
