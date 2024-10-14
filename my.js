@@ -98,8 +98,12 @@ jQuery(document).ready(function($){
 	$("nav div a").click(function(event){
 		// 固定バーを最上部に表示しているので、アンカーで飛ばされる位置がこのバーに隠れてしまう
 		event.preventDefault(); // デフォルト動作をキャンセル
-		//console.log($(event.target.parentNode).attr("href"));
-		$('html, body').animate({scrollTop: ( $($(event.target.parentNode).attr("href")).offset().top - $("nav").height() -19 ) }, 300);
+		//console.log($(event.target));
+		//console.log(event.target.tagName);
+		if(event.target.tagName === 'IMG')
+			$('html, body').animate({scrollTop: ( $($(event.target.parentNode).attr("href")).offset().top - $("nav").height() -19 ) }, 300);
+		if(event.target.tagName === 'A')
+			$('html, body').animate({scrollTop: ( $($(event.target).attr("href")).offset().top - $("nav").height() -19 ) }, 300);
 		scroll_spy();
 	});
 

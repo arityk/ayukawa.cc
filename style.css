@@ -26,7 +26,7 @@ Author: Ari
 	.pc {
 		display: none;
 	}
-	
+
 	.mobile {
 		display: inline-block;
 	}
@@ -90,7 +90,7 @@ body {
 		min-width: 481px;
 		margin: 0 auto;
 	}
-	
+
 	footer {
 		width: 100%;
 		clear: both;
@@ -101,7 +101,7 @@ body {
 	header .wrapper, #container, footer .wrap, #menu {
 		min-width: 320px;
 	}
-	
+
 	body {
 		font-size: 14px;
 	}
@@ -293,15 +293,15 @@ header a.call img {
 	header div {
 		font-size: 15px;
 	}
-	
+
 	header div.right {
 		top: 30px;
 	}
-	
+
 	header div.right img {
 		height: 24px;
 	}
-	
+
 	header .overlay {
 		height: 100px;
 	}
@@ -310,24 +310,24 @@ header a.call img {
 	header div {
 		font-size: 4vw;
 	}
-	
+
 	header p {
 		margin-bottom: 4px;
 	}
-	
+
 	header div.right img {
 		height: 20px;
 	}
-	
+
 	header a.call {
 		padding: 2px 6px 6px;
 		background-color: #deaa348c;
 	}
-	
+
 	header .overlay {
 		background: linear-gradient(to bottom, rgba(0,0,0,0.50), rgba(0,0,0,0.2));
 	}
-	
+
 	#top {
 		background-position-x: calc(26% - 40px);
 		height: 400px;
@@ -390,6 +390,7 @@ nav li {
 	color: #FFF;
 	font-weight: bold;
 	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+	display: block;
 }
 
 #menu div a:hover, #menu div a.current {
@@ -477,11 +478,11 @@ nav li {
 		min-width: 330px;
 		font-size: 14px;
 	}
-	
+
 	#goaisatsu .right-box {
 		width: calc(100% - 330px);
 	}
-	
+
 	#goaisatsu .right-box img {
 		width: 100%;
 	}
@@ -491,25 +492,25 @@ nav li {
 		float: none;
 		width: 100%;
 	}
-		
+
 	#goaisatsu .left-box img.mobile {
 		width: calc(100% - 40px);
 		margin: 0 0 24px;
 	}
-	
+
 	#goaisatsu .left-box img.goaisatsu-ayu,
 	#goaisatsu .left-box img.goaisatsu-basashi {
 		margin-left: 0;
 	}
-	
+
 	#goaisatsu .left-box p {
 		padding: 0 20px;
 	}
-	
+
 	#goaisatsu .right-box {
 		margin: 0;
 	}
-	
+
 	#goaisatsu .right-box img {
 		width: 100%;
 		margin-bottom: 10px;
@@ -536,7 +537,7 @@ nav li {
 #oryouri img.header {
 	margin-top: -86px;
     margin-bottom: 100px;
-	margin-left: 40px;	
+	margin-left: 40px;
 }
 
 @media (max-width: 480px) {
@@ -663,15 +664,17 @@ nav li {
 #oshinagaki img.header {
 	margin-top: -86px;
     margin-bottom: 100px;
-	margin-left: 40px;	
+	margin-left: 40px;
 }
 
 #oshinagaki .bg {
 	background-image: url(images/oshinagaki-bg.jpg);
 	background-repeat: no-repeat;
-	background-position: right top;
+	background-position: right center;
 	background-size: contain;
 	background-attachment: fixed;
+	background-color: rgba(255,255,255,0.2);
+	background-blend-mode: lighten;
 }
 
 #oshinagaki .list {
@@ -717,7 +720,7 @@ nav li {
 #location img.header {
 	margin-top: -86px;
     margin-bottom: 100px;
-	margin-left: 40px;	
+	margin-left: 40px;
 }
 
 #location .info {
@@ -775,7 +778,7 @@ nav li {
 		width: 100%;
 		margin-right: 5px;
 	}
-	
+
 	#location iframe {
 		height: 300px;
 	}
