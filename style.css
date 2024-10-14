@@ -780,7 +780,7 @@ nav li {
 
 #location .fb-page {
 	display: block;
-	margin-top: 20px;
+	margin: 20px 0;
 	text-align: center;
 }
 
@@ -799,7 +799,7 @@ nav li {
 /****	footer ****/
 
 footer {
-	margin-top: 60px;
+	margin-top: 40px;
 	background-color: #333;
 	color: #fff;
 	height: 200px;
