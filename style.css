@@ -768,9 +768,19 @@ nav li {
 	margin-right: 0;
 }
 
+#facebook {
+	margin: 0 20px;
+}
+
+#facebook img {
+	width: 20px;
+	margin-right: 4px;
+	vertical-align: text-bottom;
+}
+
 #location .fb-page {
 	display: block;
-	margin-top: 40px;
+	margin-top: 20px;
 	text-align: center;
 }
 
