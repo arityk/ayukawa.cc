@@ -230,6 +230,10 @@ header {
 	position: relative;
 	background: url(images/ayu_1_1024.jpg) 0% 0 no-repeat fixed;
 	background-size: cover;
+	border-width: 24px 0 0 0;
+	border-style: solid;
+	border-image-source: linear-gradient(#AB0B19 0%, #C30C1D 100%);
+	border-image-slice: 1;
 }
 
 header .bg_wrapper {
@@ -307,6 +311,10 @@ header a.call img {
 	}
 }
 @media (max-width: 480px) {
+	header {
+		border-width: 12px 0 0 0;
+	}
+
 	header div {
 		font-size: 4vw;
 	}
@@ -774,6 +782,7 @@ nav li {
 }
 
 #facebook {
+	text-align: center;
 	margin: 0 20px;
 }
 
